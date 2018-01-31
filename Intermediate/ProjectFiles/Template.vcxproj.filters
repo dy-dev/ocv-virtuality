@@ -1,0 +1,1711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Template.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{23DF9C9E-7CD2-4EC3-94C3-E8325AEAF8F5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Template.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TemplateEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{214F0032-2ABA-466A-B4CD-5FD58C2341B3}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{A16CB9E0-B14B-47A0-A756-9E99AFAB0214}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\PopcornFX">
+			<UniqueIdentifier>{53927B89-71D1-47BF-BDCA-8AFE25960504}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\PopcornFX\Source">
+			<UniqueIdentifier>{662F0B66-0E13-48E2-AD3D-66EB3CF14892}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX">
+			<UniqueIdentifier>{8A054DB4-5AD8-48DC-B48E-CD8B7B0D69F4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\PopcornFX\Source\PopcornFX\PopcornFX.Build.cs">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX</Filter>
+		</None >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private">
+			<UniqueIdentifier>{0A3A9908-5D3A-4F2A-88A9-71470A1F4284}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\.gitignore">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</None >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\EmptyPCH.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\PopcornFXCustomVersion.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\PopcornFXFunctions.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\PopcornFXHelper.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\PopcornFXHelper.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\PopcornFXMinimal.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\PopcornFXPlugin.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\PopcornFXPlugin.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\PopcornFXRefPtrWrap.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\PopcornFXSDK.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\PopcornFXSettings.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\PopcornFXSettingsEditor.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\PopcornFXSettingsEditor.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\PopcornFXStats.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\PopcornFXStats.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\StrongObjectPtrViaShared.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\Assets">
+			<UniqueIdentifier>{6D0786EC-39B6-4991-A456-07BE64023196}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXAssetDep.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXAssetDep.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXEffect.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXEffect.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXFile.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXFile.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXMesh.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXMesh.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXRendererMaterial.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXRendererMaterial.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXSimulationCache.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXSimulationCache.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXStaticMeshData.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXStaticMeshData.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXTextureAtlas.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Assets\PopcornFXTextureAtlas.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Assets</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\Attributes">
+			<UniqueIdentifier>{8CB44ECF-62A8-4E07-A426-A7A71F06A483}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Attributes\PopcornFXAttributeFunctions.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Attributes</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Attributes\PopcornFXAttributeList.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Attributes</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Attributes\PopcornFXAttributeList.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Attributes</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Attributes\PopcornFXAttributeSamplers.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Attributes</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Attributes\PopcornFXAttributeSamplerSkinnedMesh.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Attributes</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\BackwardCompat">
+			<UniqueIdentifier>{C992881E-3ECB-46E6-A9BA-BC28A0F595E9}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\BackwardCompat\PopcornFXDefaultMaterialsSettings.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\BackwardCompat</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules">
+			<UniqueIdentifier>{DEA260F1-7D61-4F94-9FD4-7E56F0D523BF}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules\PopcornFXDependencyModule.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules\PopcornFXDependencyModule.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules\PopcornFXDependencyModuleAssetTools.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules\PopcornFXDependencyModuleAssetTools.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules\PopcornFXDependencyModuleLevelEditor.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules\PopcornFXDependencyModuleLevelEditor.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules\PopcornFXDependencyModulePropertyEditor.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules\PopcornFXDependencyModulePropertyEditor.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules\PopcornFXDependencyModuleSequencer.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules\PopcornFXDependencyModuleSequencer.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules\PopcornFXDependencyModuleSettings.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules\PopcornFXDependencyModuleSettings.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\DependencyModules</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\Editor">
+			<UniqueIdentifier>{7A20B7D2-C5D2-4DAF-880D-CBECBC978725}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\EditorHelpers.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\EditorHelpers.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PopcornFXAssetBroker.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PopcornFXAssetBroker.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PopcornFXEffectEditor.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PopcornFXEffectEditor.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PopcornFXEffectPreviewViewport.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PopcornFXEffectPreviewViewport.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PopcornFXStyle.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PopcornFXStyle.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PopcornFXTypeActions.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PopcornFXTypeActions.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails">
+			<UniqueIdentifier>{683804EA-9136-4251-8FE1-FAE35ACDC655}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsAttributeList.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsAttributeList.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsAttributeSamplerActor.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsAttributeSamplerActor.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsAttributeSamplerCurve.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsAttributeSamplerCurve.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsAttributeSamplerShape.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsAttributeSamplerShape.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsEffect.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsEffect.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsEffectAttributes.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsEffectAttributes.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsEmitterComponent.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsEmitterComponent.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsSceneComponent.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsSceneComponent.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsSettings.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails\PopcornFXDetailsSettings.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\CustomizeDetails</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization">
+			<UniqueIdentifier>{CAD3CE63-A813-4535-AC45-5177BD52BF76}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization\PopcornFXCustomizationAssetDep.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization\PopcornFXCustomizationAssetDep.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization\PopcornFXCustomizationCollisionFilter.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization\PopcornFXCustomizationCollisionFilter.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization\PopcornFXCustomizationRendererMaterial.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization\PopcornFXCustomizationRendererMaterial.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization\PopcornFXCustomizationSubRendererMaterial.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization\PopcornFXCustomizationSubRendererMaterial.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Editor\PropertyCustomization</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\HUD">
+			<UniqueIdentifier>{721BEE4D-0F35-4C14-850C-53433D5FEC57}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\HUD\PopcornFXHUDDebug.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\HUD</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\HUD\PopcornFXHUDDebug.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\HUD</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\HUD\PopcornFXHUDMemory.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\HUD</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\HUD\PopcornFXHUDMemory.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\HUD</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\HUD\PopcornFXHUDProfiler.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\HUD</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\HUD\PopcornFXHUDProfiler.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\HUD</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\Internal">
+			<UniqueIdentifier>{B1171432-5B72-4CB5-9203-7DE663342CD0}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\DependencyHelper.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\DependencyHelper.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\FileSystemController_UE.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\FileSystemController_UE.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\ParticleScene.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\ParticleScene.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\PopcornFXAudioSampling.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\PopcornFXLogs.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\PopcornFXProfiler.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\PopcornFXProfiler.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\ResourceHandlerImage_UE.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\ResourceHandlerImage_UE.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\ResourceHandlerMesh_UE.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\ResourceHandlerMesh_UE.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\Startup.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\Startup.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Internal\Traits.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Internal</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\Platforms">
+			<UniqueIdentifier>{AD1FED2C-5860-4613-A01C-E3561D24B04D}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Platforms\PopcornFXPlatform.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Platforms</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Platforms\PopcornFXPlatformCommon.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Platforms</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\Render">
+			<UniqueIdentifier>{950158E5-1026-4E47-92A7-AC502F4716A8}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\DrawCall.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\DrawCall.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\DrawCallSliceHelper.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\DrawCallSliceHelper.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\DrawCalls_Billboard.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\DrawCalls_Billboard.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\DrawCalls_Light.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\DrawCalls_Light.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\DrawCalls_Mesh.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\DrawCalls_Mesh.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\DrawCalls_Ribbon.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\DrawCalls_Ribbon.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\MyRHIStuff.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\MyRHIStuff.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\ParticleDrawer_Sound.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\ParticleDrawer_Sound.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\PopcornFXBillboarderBillboardCS.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\PopcornFXBillboarderBillboardCS.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\PopcornFXBuffer.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\PopcornFXBuffer.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\PopcornFXMeshVertexFactory.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\PopcornFXMeshVertexFactory.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\PopcornFXShaderUtils.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\PopcornFXSortComputeShader.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\PopcornFXSortComputeShader.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\PopcornFXVertexFactory.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\PopcornFXVertexFactory.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\PopcornFXVertexFactoryShaderParameters.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\PopcornFXVertexFactoryShaderParameters.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\RendererSubView.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\RendererSubView.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\RenderManager.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\RenderManager.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\RenderManagerBase.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\RenderManager_Collect.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\RenderManager_Render.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Render\RenderManager_StdDrawer.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Render</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer">
+			<UniqueIdentifier>{F9EA78E3-DE05-4579-AEAC-4FDF021E06F2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Sections">
+			<UniqueIdentifier>{B7917891-A1DE-47BA-93C1-3E21180CFC7A}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Sections\PopcornFXAttributeSection.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Sections</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Sections\PopcornFXAttributeSection.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Sections</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Sections\PopcornFXPlayKeys.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Sections</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Sections\PopcornFXPlayKeys.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Sections</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Templates">
+			<UniqueIdentifier>{2E0CADF9-90C5-49C3-89FE-086128D58298}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Templates\PopcornFXAttributeSectionTemplate.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Templates</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Templates\PopcornFXAttributeSectionTemplate.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Templates</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Templates\PopcornFXPlaySectionTemplate.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Templates</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Templates\PopcornFXPlaySectionTemplate.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Templates</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\TrackEditors">
+			<UniqueIdentifier>{20AE945D-27DA-4F10-857B-8CF0362246D9}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\TrackEditors\PopcornFXAttributeTrackEditor.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\TrackEditors</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\TrackEditors\PopcornFXAttributeTrackEditor.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\TrackEditors</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\TrackEditors\PopcornFXPlayTrackEditor.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\TrackEditors</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\TrackEditors\PopcornFXPlayTrackEditor.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\TrackEditors</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Tracks">
+			<UniqueIdentifier>{CB42CBAD-1ACE-46C9-B502-DD3E663EFBCA}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Tracks\PopcornFXAttributeTrack.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Tracks</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Tracks\PopcornFXAttributeTrack.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Tracks</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Tracks\PopcornFXPlayTrack.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Tracks</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Tracks\PopcornFXPlayTrack.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\Sequencer\Tracks</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Private\World">
+			<UniqueIdentifier>{C42DA5CA-4BAE-4549-A7F9-4EDBB84C6911}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\World\PopcornFXAudioSamplerActor.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\World</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\World\PopcornFXAudioSamplerActor.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\World</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\World\PopcornFXEmitter.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\World</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\World\PopcornFXEmitterComponent.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\World</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\World\PopcornFXSceneActor.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\World</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\World\PopcornFXSceneComponent.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\World</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\World\PopcornFXSceneProxy.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\World</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\World\PopcornFXSceneProxy.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\World</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\World\PopcornFXWaitForSceneActor.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\World</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Private\World\PopcornFXWaitForSceneActor.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Private\World</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFX\Public">
+			<UniqueIdentifier>{B8AEA94E-F3A5-4795-A106-942371F98E71}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\IPopcornFXEffectEditor.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\IPopcornFXPlugin.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXAttributeFunctions.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXAttributeSampler.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXAttributeSamplerActor.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXAttributeSamplerCurve.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXAttributeSamplerCurveDynamic.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXAttributeSamplerImage.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXAttributeSamplerShape.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXAttributeSamplerSkinnedMesh.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXAttributeSamplerText.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXAudioSampling.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXCustomVersion.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXEmitter.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXEmitterComponent.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXFunctions.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXFwdDeclSDK.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXPublic.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXRefPtrWrap.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXSceneActor.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXSceneComponent.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXSettings.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXTypes.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFX\Public\PopcornFXVersionGenerated.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFX\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\PopcornFX\PopcornFX.uplugin">
+			<Filter>Plugins\PopcornFX</Filter>
+		</None >
+		<Filter Include="Plugins\PopcornFX\Resources">
+			<UniqueIdentifier>{9DBFF6F0-8B65-43A9-93AC-39FEFB8A2E18}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\PopcornFX\Resources\Icon128.png">
+			<Filter>Plugins\PopcornFX\Resources</Filter>
+		</None >
+		<Filter Include="Plugins\PopcornFX\Shaders">
+			<UniqueIdentifier>{7B0FAF87-E938-4FBD-B9AE-96C86C511D66}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\PopcornFX\Shaders\Private">
+			<UniqueIdentifier>{5654F1A6-50C6-41F0-8D57-AE14355C989C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\PopcornFX\Shaders\Private\PopcornFXBillboarderBillboardComputeShader.ush">
+			<Filter>Plugins\PopcornFX\Shaders\Private</Filter>
+		</None >
+		<None Include="..\..\Plugins\PopcornFX\Shaders\Private\PopcornFXMeshVertexFactory.ush">
+			<Filter>Plugins\PopcornFX\Shaders\Private</Filter>
+		</None >
+		<None Include="..\..\Plugins\PopcornFX\Shaders\Private\PopcornFXSortComputeShader.ush">
+			<Filter>Plugins\PopcornFX\Shaders\Private</Filter>
+		</None >
+		<None Include="..\..\Plugins\PopcornFX\Shaders\Private\PopcornFXVertexFactory.ush">
+			<Filter>Plugins\PopcornFX\Shaders\Private</Filter>
+		</None >
+		<Filter Include="Plugins\WebSocket">
+			<UniqueIdentifier>{EF223B84-9599-402D-9A6F-0F79A2088B07}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\WebSocket\WebSocket.uplugin">
+			<Filter>Plugins\WebSocket</Filter>
+		</None >
+		<Filter Include="Plugins\WebSocket\Resources">
+			<UniqueIdentifier>{5DBAB84F-C0C1-4C56-8689-6C7EB23235BD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\WebSocket\Resources\Icon128.png">
+			<Filter>Plugins\WebSocket\Resources</Filter>
+		</None >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFXCopyShaders">
+			<UniqueIdentifier>{334D7B4E-9200-4091-92CC-2A1E92A6F2B3}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\PopcornFX\Source\PopcornFXCopyShaders\PopcornFXCopyShaders.Build.cs">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXCopyShaders</Filter>
+		</None >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFXCopyShaders\Private">
+			<UniqueIdentifier>{C7570E3C-B76E-41EB-952A-3C8E88DB9A82}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXCopyShaders\Private\EmptyPCH.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXCopyShaders\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFXCopyShaders\Private\PopcornFXCopyShadersModule.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXCopyShaders\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXCopyShaders\Private\PopcornFXCopyShadersModule.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXCopyShaders\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFXEditor">
+			<UniqueIdentifier>{38B4FB3B-2033-44BB-A057-A03BB5F0A369}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\PopcornFXEditor.Build.cs">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor</Filter>
+		</None >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFXEditor\Private">
+			<UniqueIdentifier>{D1DAD811-4316-4439-BC9E-A5405B97F161}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\EmptyPCH.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\PopcornFXEditorPlugin.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\PopcornFXEditorPlugin.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\PopcornFXEmitterFactory.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\PopcornFXEmitterFactory.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\PopcornFXFileFactory.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\PopcornFXFileFactory.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\PopcornFXFileReimportFactory.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\PopcornFXFileReimportFactory.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\PopcornFXFileThumbnailRenderer.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\PopcornFXFileThumbnailRenderer.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes">
+			<UniqueIdentifier>{16B3FEDA-A06B-43E5-A608-5F9F5D3D5B3A}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes\PopcornFXNode_DynamicField.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes\PopcornFXNode_DynamicField.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes\PopcornFXNode_GetAttribute.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes\PopcornFXNode_GetAttribute.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes\PopcornFXNode_GetParticleField.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes\PopcornFXNode_GetParticleField.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes\PopcornFXNode_SetAttribute.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes\PopcornFXNode_SetAttribute.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Private\Nodes</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFXEditor\Public">
+			<UniqueIdentifier>{C09558D5-8081-4EA8-858C-CAF9CE1DCD52}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXEditor\Public\IPopcornFXEditorPlugin.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXEditor\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFXOnDefault">
+			<UniqueIdentifier>{14DFB2CE-1D9F-4FEE-A139-0043BC07D9C4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\PopcornFX\Source\PopcornFXOnDefault\PopcornFXOnDefault.Build.cs">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXOnDefault</Filter>
+		</None >
+		<Filter Include="Plugins\PopcornFX\Source\PopcornFXOnDefault\Private">
+			<UniqueIdentifier>{585AA5EF-C0D0-4F43-8E7C-21E5595F19B2}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXOnDefault\Private\EmptyPCH.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXOnDefault\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PopcornFX\Source\PopcornFXOnDefault\Private\PopcornFXOnDefaultModule.cpp">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXOnDefault\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXOnDefault\Private\PopcornFXOnDefaultModule.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXOnDefault\Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PopcornFX\Source\PopcornFXOnDefault\Private\PopcornFXOnDefaultPrivatePCH.h">
+			<Filter>Plugins\PopcornFX\Source\PopcornFXOnDefault\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source">
+			<UniqueIdentifier>{CB20D88F-6CF5-4DB4-A04C-BFC4D1EFAFB4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket">
+			<UniqueIdentifier>{11CB149D-F7CD-4534-9B78-B62A4C5CCCE2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\WebSocket.Build.cs">
+			<Filter>Plugins\WebSocket\Source\WebSocket</Filter>
+		</None >
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\WebSocket_UPL.xml">
+			<Filter>Plugins\WebSocket\Source\WebSocket</Filter>
+		</None >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\Private">
+			<UniqueIdentifier>{D27DA388-8426-40D0-B6B0-E6E0CE98A7F0}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\WebSocket\Source\WebSocket\Private\WebSocket.cpp">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\WebSocket\Source\WebSocket\Private\WebSocketBase.cpp">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\WebSocket\Source\WebSocket\Private\WebSocketBlueprintLibrary.cpp">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\WebSocket\Source\WebSocket\Private\WebSocketContext.cpp">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\Private\WebSocketContext.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\Public">
+			<UniqueIdentifier>{D7DAAD20-B655-4048-ACA2-6CE39C29DA28}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\Public\WebSocket.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\Public\WebSocketBase.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\Public\WebSocketBlueprintLibrary.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty">
+			<UniqueIdentifier>{AFCC7973-2ED5-4CCA-8EC4-C532316FE0E7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include">
+			<UniqueIdentifier>{9AF654FF-7E57-463A-AA38-2D4C5F7E7400}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android">
+			<UniqueIdentifier>{EE644B9E-F534-43E0-BC70-31B430D8B264}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\libwebsockets.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\lws_config.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\zconf.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\zlib.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl">
+			<UniqueIdentifier>{8AFF833A-26C2-41C2-973C-C7712355556B}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\aes.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\asn1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\asn1t.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\asn1_mac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\bio.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\blowfish.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\bn.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\buffer.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\camellia.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\cast.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\cmac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\cms.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\comp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\conf.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\conf_api.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\crypto.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\des.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\des_old.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\dh.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\dsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\dso.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\dtls1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ebcdic.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ec.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ecdh.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ecdsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\engine.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\err.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\evp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\e_os2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\hmac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\krb5_asn.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\kssl.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\lhash.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\md4.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\md5.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\modes.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\objects.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\obj_mac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ocsp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\opensslconf.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\opensslv.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ossl_typ.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\pem.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\pem2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\pkcs12.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\pkcs7.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\pqueue.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\rand.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\rc2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\rc4.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ripemd.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\rsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\safestack.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\seed.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\sha.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\srp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\srtp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ssl.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ssl2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ssl23.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ssl3.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\stack.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\symhacks.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\tls1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ts.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\txt_db.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ui.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ui_compat.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\whrlpool.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\x509.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\x509v3.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\x509_vfy.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS">
+			<UniqueIdentifier>{73FC3F50-EEA2-40DE-ABFE-8E07EBFEAA1A}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\extension-permessage-deflate.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\lejp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\libwebsockets.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\lws_config.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\romfs.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl">
+			<UniqueIdentifier>{EBDDF207-3466-4C8B-A56B-29D65E22972A}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\aes.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\asn1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\asn1t.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\asn1_mac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\bio.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\blowfish.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\bn.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\buffer.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\camellia.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\cast.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\cmac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\cms.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\comp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\conf.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\conf_api.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\crypto.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\des.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\des_old.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\dh.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\dsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\dso.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\dtls1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ebcdic.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ec.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ecdh.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ecdsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\engine.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\err.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\evp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\e_os2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\hmac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\idea.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\krb5_asn.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\kssl.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\lhash.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\md4.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\md5.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\mdc2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\modes.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\objects.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\obj_mac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ocsp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\opensslconf.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\opensslv.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ossl_typ.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\pem.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\pem2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\pkcs12.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\pkcs7.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\pqueue.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\rand.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\rc2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\rc4.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ripemd.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\rsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\safestack.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\seed.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\sha.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\srp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\srtp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ssl.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ssl2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ssl23.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ssl3.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\stack.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\symhacks.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\tls1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ts.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\txt_db.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ui.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ui_compat.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\whrlpool.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\x509.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\x509v3.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\x509_vfy.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Linux">
+			<UniqueIdentifier>{48E9F773-EBD8-4BE6-96A0-BE9E4437C566}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Linux\libwebsockets.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Linux</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Linux\lws_config.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Linux</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac">
+			<UniqueIdentifier>{59DE8678-AFA4-443D-866B-43A6658495F7}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\libwebsockets.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\lws_config.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl">
+			<UniqueIdentifier>{BA28A69A-ADB3-45C7-A339-9E9B239F9F6E}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\aes.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\asn1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\asn1t.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\asn1_mac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\bio.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\blowfish.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\bn.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\buffer.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\camellia.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\cast.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\cmac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\cms.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\comp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\conf.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\conf_api.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\crypto.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\des.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\des_old.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\dh.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\dsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\dso.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\dtls1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ebcdic.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ec.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ecdh.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ecdsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\engine.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\err.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\evp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\e_os2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\hmac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\idea.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\krb5_asn.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\kssl.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\lhash.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\md4.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\md5.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\mdc2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\modes.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\objects.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\obj_mac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ocsp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\opensslconf.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\opensslv.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ossl_typ.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\pem.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\pem2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\pkcs12.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\pkcs7.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\pqueue.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\rand.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\rc2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\rc4.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ripemd.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\rsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\safestack.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\seed.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\sha.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\srp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\srtp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ssl.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ssl2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ssl23.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ssl3.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\stack.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\symhacks.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\tls1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ts.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\txt_db.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ui.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ui_compat.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\whrlpool.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\x509.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\x509v3.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\x509_vfy.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64">
+			<UniqueIdentifier>{D0B03EE8-E567-4C3A-A12B-CFF12F8A20D4}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64\libwebsockets.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64\lws_config.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64\winsock2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64\ws2tcpip.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib">
+			<UniqueIdentifier>{A828D53B-2CD3-45AE-867C-515D0C8BD1AB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android">
+			<UniqueIdentifier>{A359130C-4D08-4EFC-8888-8D2807A603FC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar">
+			<UniqueIdentifier>{3D8EB65C-E90E-4052-8EF7-F30FBD64A87A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com">
+			<UniqueIdentifier>{9B4FEE2A-68B2-4910-9614-2F029B374F59}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\android">
+			<UniqueIdentifier>{8930E6AF-95C9-40DB-BC6A-2573CDE811B8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\android\volley">
+			<UniqueIdentifier>{3E60C0CE-D4FA-454C-A4E4-E1965BAE3512}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\android\volley\1.0.0">
+			<UniqueIdentifier>{5FD047AA-3224-49E0-B662-FE0C9E19AF7F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\android\volley\1.0.0\volley-1.0.0.aar">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\android\volley\1.0.0</Filter>
+		</None >
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\android\volley\1.0.0\volley-1.0.0.pom">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\android\volley\1.0.0</Filter>
+		</None >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\util">
+			<UniqueIdentifier>{E94B1830-7EC0-41D4-B864-453615FF0158}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\util\websockethelper">
+			<UniqueIdentifier>{77128C17-64DB-42B3-86D0-50060DC9174F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\util\websockethelper\1.0.0">
+			<UniqueIdentifier>{CCEEE668-EC70-4AEC-BAC3-44CE734A9957}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\util\websockethelper\1.0.0\websockethelper-1.0.0.aar">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\util\websockethelper\1.0.0</Filter>
+		</None >
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\util\websockethelper\1.0.0\websockethelper-1.0.0.pom">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\util\websockethelper\1.0.0</Filter>
+		</None >
+		<Filter Include="Source\Template">
+			<UniqueIdentifier>{A96A36B4-9005-41F0-A483-D181315962B8}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Template\SocketListner.cpp">
+			<Filter>Source\Template</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Template\SocketListner.h">
+			<Filter>Source\Template</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Template\Template.Build.cs">
+			<Filter>Source\Template</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Template\Template.cpp">
+			<Filter>Source\Template</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Template\Template.h">
+			<Filter>Source\Template</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
